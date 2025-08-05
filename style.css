@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #0f0f0f;
+  color: #f1f0eb;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 10%;
+  background-color: #1c1c1c;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  font-family: 'Baskerville', serif;
+}
+
+.subtitle {
+  font-style: italic;
+  color: #c9b9a8;
+  margin-top: 10px;
+}
+
+.website {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #a5a5a5;
+}
+
+.hero-image img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 4px solid #f1f0eb;
+}
+
+section {
+  padding: 40px 10%;
+}
+
+.intro, .projects, .contact {
+  background-color: #151515;
+  margin-top: 10px;
+  border-top: 2px solid #2e2e2e;
+  border-bottom: 2px solid #2e2e2e;
+}
+
+h2 {
+  color: #d7c4b2;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.project h3 {
+  color: #f5deb3;
+  margin-bottom: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #111;
+  color: #888;
+  font-size: 0.9rem;
+}
